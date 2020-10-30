@@ -39,7 +39,16 @@ alphabet.getAlphabet = async (req, res) => {
       arr = result;
       let length = arr.length;
       let obj = {};
-      
+      for (let i = 0; i < length; i++) {
+        console.log(String(arr[i]).length)
+        if (arr[i].includes('mkpọtụ')) {
+          obj.instance = arr[i];
+          ++i
+        }
+        if (arr[i].length < 500) obj[arr[i]] = arr[++i];
+        else obj.PS = arr[i];
+        --length;
+      }
       result = obj;
 
       return res.status(200).json({ status: true, data: result, message: 'Success' })
