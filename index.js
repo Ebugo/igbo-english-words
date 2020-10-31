@@ -16,3 +16,5 @@ app.get('/', (req, res) => {
 app.get('/get/table', table.getTable);
 
 app.get('/get/:alphabet', alphabet.getAlphabet);
+
+app.get('/words', alphabet.getWord);
