@@ -1,8 +1,12 @@
 # Igbo to English Words
 
-**Live Url** - [igbo-english-words](https://igbo-english-words.herokuapp.com/get/:alphabet)
+**Live Url** - [igbo-english-words](https://igbo-english-words.herokuapp.com/)
 
-***NB***: Replace the param placeholder (:alphabet) with the alphabet you want to search for.
+**Search for an alphabet** - [igbo-english-words - get alphabet](https://igbo-english-words.herokuapp.com/get/:alphabet)
+
+**Search for a word** - [igbo-english-words - get word](https://igbo-english-words.herokuapp.com/words?keyword=:word)
+
+***NB***: Replace the param placeholder (:alphabet) with the alphabet you want to search for. Same goes for a word (replace :word with the word you want to search for).
 
 ## **PS:**
 
