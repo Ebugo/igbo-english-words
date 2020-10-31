@@ -61,4 +61,5 @@ alphabet.getAlphabet = async (req, res) => {
   }
 };
 
+
 module.exports = alphabet;
